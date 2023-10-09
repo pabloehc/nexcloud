@@ -1,0 +1,162 @@
+/**
+ *
+ * (c) Copyright Ascensio System SIA 2023
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */
+
+ #content .section-onlyoffice .icon-info {
+    box-sizing: content-box;
+    padding-top: 6px;
+}
+.onlyoffice-header {
+    display: inline-block;
+    margin-top: 16px;
+}
+.section-onlyoffice input {
+    display: block;
+    width: 250px;
+}
+.onlyoffice-hide {
+    display: none;
+}
+#onlyofficeAdv {
+    cursor: pointer;
+    text-decoration: none;
+}
+#onlyofficeAdv .icon {
+    display: inline-block;
+    margin-bottom: -3px;
+}
+#onlyofficeAddrSave {
+    float: left;
+}
+.onlyoffice-demo {
+    margin-left: 90px;
+}
+#s2id_onlyofficeLimitGroups,
+#s2id_onlyofficeWatermark_allGroupsList,
+#s2id_onlyofficeWatermark_allTagsList,
+#s2id_onlyofficeWatermark_linkTagsList {
+    margin-bottom: 16px;
+    margin-left: 18px;
+    margin-top: 6px;
+    width: 250px;
+}
+.onlyoffice-exts {
+    column-width: 100px;
+    -moz-column-width: 100px;
+    -webkit-column-width: 100px;
+}
+.onlyoffice-tables {
+    margin-top: 4px;
+    line-height: initial;
+    column-width: 140px;
+    -moz-column-width: 140px;
+    -webkit-column-width: 140px;
+}
+#onlyofficeSecret-show {
+    left: 205px;
+}
+
+#onlyofficeDocsCloudBannerWrapper {
+    max-width: 596px;
+    min-height: 108px;
+    text-align: center;
+    background-image: url("../img/get-editors-background.svg");
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+}
+
+#onlyofficeDocsCloudBannerPicWrapper {
+    height: 100%;
+    width: 20%;
+    padding: 10px 0 0 20px;
+}
+
+#onlyofficeDocsCloudBannerPic {
+    content: url("../img/get-editors-pic.svg");
+}
+
+#onlyofficeDocsCloudBannerContent {
+    height: 100%;
+    width: 80%;
+    color: #000000;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+#onlyofficeDocsCloudBannerContentText {
+    width: 60%;
+    height: 100%;
+    color: #000;
+    font-size: 14px;
+    text-align: justify;
+    padding-left: 15px;
+}
+
+#onlyofficeDocsCloudBannerContentText h2 {
+    margin: 0;
+    color: #000000;
+}
+
+#onlyofficeDocsCloudBannerContentButtonWrapper {
+    width: 40%;
+    height: 100%;
+    margin: auto;
+}
+
+#onlyofficeDocsCloudBannerContentButton {
+    background-color: #EDEDED;
+    color: #000;
+    border: 1px solid #DBDBDB;
+}
+
+@media (max-width: 580px) {
+    #onlyofficeDocsCloudBannerPicWrapper {
+        padding: 20px 0 0 5px;
+        width: 30%;
+    }
+    #onlyofficeDocsCloudBannerContent {
+        flex-direction: column;
+        width: 70%;
+    }
+    #onlyofficeDocsCloudBannerContentText {
+        width: 100%;
+        padding-right: 5px;
+    }
+    #onlyofficeDocsCloudBannerContentButtonWrapper {
+        width: 100%;
+        padding: 15px 0 15px 15px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 335px) {
+    #onlyofficeDocsCloudBannerWrapper {
+        flex-direction: column;
+    }
+    #onlyofficeDocsCloudBannerPicWrapper {
+        width: 100%;
+        padding: unset;
+    }
+    #onlyofficeDocsCloudBannerContent {
+        width: 100%;
+    }
+}
